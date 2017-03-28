@@ -1,0 +1,89 @@
+# ignore all files starting with . or ~
+##.*
+~*
+
+# ignore node dependency directories (used by grunt)
+node_modules/
+bower_components/
+compiled/
+.sass-cache/
+
+# ignore OS generated files
+.DS_Store
+ehthumbs.db
+Thumbs.db
+*.idea
+*.TMP
+*.tmp
+
+# ignore Editor files
+*.sublime-project
+*.sublime-workspace
+*.komodoproject
+
+# ignore log files and databases
+*.log
+*.sql
+*.sqlite
+
+# ignore compiled files
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# ignore wordpress files
+wp-config.php
+.htaccess
+htaccess.bak
+htaccess.txt
+robots.txt
+
+# ignore backup and cache directory created by wordpress plugins
+/cache/
+/wp-content/advanced-cache.php
+/wp-content/backup-db/
+/wp-content/backups/
+/wp-content/cache/
+/wp-content/plugins/wordfence/tmp/
+/wp-content/upgrade/
+/wp-content/uploads/wp-sync-db/
+/wp-content/wfcache/
+/wp-content/wp-cache-config.php
+/wp-snapshots/
+/wp-content/w3tc-config/master.php
+/wp-content/plugins/bwp-minify/cache/
+## Wordpress All in One Security Firewall
+/wp-content/aiowps_backups/
+##Wocommerc Logs Files
+/wp-content/uploads/wc-logs/
+/wp-content/wflogs/
+/wp-content/uploads/tmp/
+
+
+
+# ignore server created files
+error_log
+/tmp/
+/logs/
+/log/
+/cli/
+/cgi-bin/
+
+# ignore custom directories
+/ajaxplorer/
+/Codiad/
+/codiad/
+/ignore/
+/qa/
+/tool/
+
+#IGNORE REALWORKS IMAGES
+/wp-content/uploads/realworks/
+
+#ignore netbeans project files and folders
+/nbproject
+.netbeans.xml
+/.htaccess.originalfile.bkp
